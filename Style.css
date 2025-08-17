@@ -1,34 +1,80 @@
-body {
+/* Reset */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
   font-family: Arial, sans-serif;
+  line-height: 1.6;
   background: #f9f9f9;
   color: #333;
+}
+
+/* Header */
+header {
+  background: #2c3e50;
+  color: #fff;
+  padding: 20px 0;
   text-align: center;
 }
 
-header {
-  background: #222;
-  color: #fff;
-  padding: 15px;
+header h1 {
+  margin-bottom: 10px;
 }
 
-header nav a {
+nav a {
   color: #fff;
-  margin: 0 10px;
   text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
 }
 
+nav a:hover {
+  color: #ffd700;
+}
+
+/* Hero Section */
 .hero {
-  padding: 50px;
-  background: linear-gradient(to right, #007bff, #00c6ff);
+  background: #3498db;
   color: white;
+  padding: 50px 20px;
+  text-align: center;
 }
 
-button {
-  background: #fff;
-  color: #007bff;
+.hero button {
+  background: #ffd700;
+  color: #333;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 20px;
+}
+
+.hero button:hover {
+  background: #f39c12;
+  color: white;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Footer */
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
 }
