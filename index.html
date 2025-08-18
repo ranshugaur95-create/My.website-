@@ -5,9 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Business</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-  <!-- Navigation -->
+  <!-- Navbar -->
   <header>
     <nav>
       <div class="logo">My Business</div>
@@ -22,37 +24,58 @@
 
   <!-- Hero Section -->
   <section id="home" class="hero">
-    <h1>Welcome to My Business</h1>
-    <p>We provide the best solutions for your needs.</p>
-    <a href="#services" class="btn">Get Started</a>
+    <h1>Welcome to <span>My Business</span></h1>
+    <p>Your success is our priority. We build digital solutions for growth 🚀</p>
+    <a href="#services" class="btn">Explore Services</a>
   </section>
 
-  <!-- Services -->
+  <!-- Services Section -->
   <section id="services">
     <h2>Our Services</h2>
     <div class="service-box">
-      <div class="card">✔ Web Development</div>
-      <div class="card">✔ App Development</div>
-      <div class="card">✔ Digital Marketing</div>
+      <div class="card">
+        <i class="fas fa-code"></i>
+        <h3>Web Development</h3>
+        <p>Modern, responsive websites built with latest technologies.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>App Development</h3>
+        <p>High-performing mobile apps for Android & iOS platforms.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-bullhorn"></i>
+        <h3>Digital Marketing</h3>
+        <p>Smart marketing strategies to grow your online presence.</p>
+      </div>
     </div>
   </section>
 
-  <!-- About -->
+  <!-- About Section -->
   <section id="about">
     <h2>About Us</h2>
-    <p>We are a passionate team dedicated to providing top-notch services and building long-term relationships with our clients.</p>
+    <p>We are a passionate team dedicated to delivering innovative digital solutions.  
+       With creativity and technology, we help businesses thrive in the digital world.</p>
   </section>
 
-  <!-- Contact -->
+  <!-- Contact Section -->
   <section id="contact">
     <h2>Contact Us</h2>
-    <p>Email: <a href="mailto:contact@mybusiness.com">contact@mybusiness.com</a></p>
-    <p>Phone: +91 98765 43210</p>
+    <div class="contact-info">
+      <p><i class="fas fa-envelope"></i> Email: <a href="mailto:contact@mybusiness.com">contact@mybusiness.com</a></p>
+      <p><i class="fas fa-phone"></i> Phone: +91 98765 43210</p>
+      <p><i class="fas fa-map-marker-alt"></i> Location: New Delhi, India</p>
+    </div>
   </section>
 
   <!-- Footer -->
   <footer>
     <p>© 2025 My Business. All rights reserved.</p>
   </footer>
-</body>
-</html>
+
+  <!-- Smooth Scroll -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("
