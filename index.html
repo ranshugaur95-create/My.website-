@@ -3,79 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Business</title>
+  <title>Futuristic Website - Home</title>
   <link rel="stylesheet" href="style.css">
-  <!-- Font Awesome for Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-  <!-- Navbar -->
   <header>
-    <nav>
-      <div class="logo">My Business</div>
+    <nav class="navbar">
+      <h1 class="logo">🚀 FutureTech</h1>
       <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <h1>Welcome to <span>My Business</span></h1>
-    <p>Your success is our priority. We build digital solutions for growth 🚀</p>
-    <a href="#services" class="btn">Explore Services</a>
-  </section>
-
-  <!-- Services Section -->
-  <section id="services">
-    <h2>Our Services</h2>
-    <div class="service-box">
-      <div class="card">
-        <i class="fas fa-code"></i>
-        <h3>Web Development</h3>
-        <p>Modern, responsive websites built with latest technologies.</p>
-      </div>
-      <div class="card">
-        <i class="fas fa-mobile-alt"></i>
-        <h3>App Development</h3>
-        <p>High-performing mobile apps for Android & iOS platforms.</p>
-      </div>
-      <div class="card">
-        <i class="fas fa-bullhorn"></i>
-        <h3>Digital Marketing</h3>
-        <p>Smart marketing strategies to grow your online presence.</p>
-      </div>
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Welcome to the Future</h2>
+      <p>Experience a modern, futuristic and fully responsive website design</p>
+      <a href="services.html" class="btn">Explore Services</a>
     </div>
   </section>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Us</h2>
-    <p>We are a passionate team dedicated to delivering innovative digital solutions.  
-       With creativity and technology, we help businesses thrive in the digital world.</p>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <div class="contact-info">
-      <p><i class="fas fa-envelope"></i> Email: <a href="mailto:contact@mybusiness.com">contact@mybusiness.com</a></p>
-      <p><i class="fas fa-phone"></i> Phone: +91 98765 43210</p>
-      <p><i class="fas fa-map-marker-alt"></i> Location: New Delhi, India</p>
+  <section class="features">
+    <h2>Why Choose Us?</h2>
+    <div class="feature-container">
+      <div class="feature-card">⚡ Super Fast</div>
+      <div class="feature-card">🎨 Futuristic Design</div>
+      <div class="feature-card">📱 Fully Responsive</div>
     </div>
   </section>
 
-  <!-- Footer -->
   <footer>
-    <p>© 2025 My Business. All rights reserved.</p>
+    <p>© 2025 FutureTech | Designed by You 😎</p>
   </footer>
-
-  <!-- Smooth Scroll -->
-  <script>
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener("click", function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute("
+</body>
+</html>
